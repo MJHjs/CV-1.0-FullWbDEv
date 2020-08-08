@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Malcolm Henry</title>
+  <link rel="stylesheet" href="mhstyles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Indie+Flower&family=Nanum+Pen+Script&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<div class="top-container">
+  <img class="top-cloud" src="cloud.png" alt="clouds-img">
+  <h1>I'm Malcolm Henry</h1>
+  <h2 class="fsd">a full stack developer (In Training 😅)</h2>
+  <img class="bottom-cloud" src="cloud.png" alt="clouds-img">
+  <img class="mountain-pic" src="mountain.png" alt="mountain-img">
+</div>
+
+<br>
+
+<div class="middle-container">
+  <div class="profile">
+    <img class="" src="" alt="">
+    <h2 class="hello-title">Hello.</h2>
+    <p class="hello-part">Can't think of anything to put here ; just an african american who loves tech #MJHjs.</p>
+  </div>
+
+  <br>
+  <hr>
+
+  <div class="skills">
+    <h2 class="skill-title">My Skills.</h2>
+    <div class="skill-row">
+      <img class="front-end" src="Skills.png" alt="Skills Image">
+      <h3>Pretty Good At The Follow 🏅</h3>
+      <ol>
+        NPM |
+
+        Express.js |
+
+        EJS |
+
+        REST |
+
+        APIs |
+
+        Databases |
+
+        SQL |
+
+        MongoDB |
+
+        Mongoose |
+
+        Authentication |
+
+        Firebase |
+
+        React.js
+
+      </ol>
+
+    </div>
+    <div class="skill-row">
+      <img class="webdev-Image" src="web dev.jpeg" alt="2020 Web Dev Image">
+      <h3 class="part-two">More Skills 🚀</h3>
+      <p>
+      <ol>
+        HTML  |
+
+        CSS  |
+
+        Bootstrap  |
+
+        Javascript |
+
+        DOM Manipulation |
+
+        jQuery |
+
+        Bash Command Line |
+
+        Git, GitHub and Version Control |
+
+        Backend Web Development |
+
+        Node.js
+      </ol>
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="contact-me">
+    <a href="mhstyles.css" class="BUTTON_TBP"></a>
+    <h2 class="get-in-touch">Get In Touch</h2>
+    <p>Look forward to hearing from you ; Cheers 🍻</p>
+    <a class="button" href="mailto:wunmastermind@gmail.com">CONTACT ME</a>
+  </div>
+</div>
+
+<br>
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/malcolm-henry-099305168/">LinkedIn</a>
+  <a class="footer-link" href="https://github.com/MJHjs">GitHub</a>
+  <p class="trademark">© 2020 Malcolm Henry.</p>
+</div>
+
+
+----------------------------------------------------
+
+.top-container {
+  background-color: #EAF6F6;
+}
+
+body {
+  margin: auto;
+  margin-top: 0;
+  text-align: center;
+  background-color: white;
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: #EAF6F6;
+  width: 10%;
+  border-width: 10px;
+  padding-top: 2rem;
+}
+
+h1 {
+  margin: 0;
+  position: static;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 10%;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 25%;
+}
+
+ol {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.get-in-touch {
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.part-two {
+  padding-left: 2.5rem;
+}
+
+.fsd {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 1rem;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+.trademark {
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer-link {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+
+
+.skill-title {
+  padding-left: 15rem;
+  padding-top: 3rem;
+}
+
+.hello-title {
+  padding-left: 15rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.hello-part {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  border-width: 6px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 305px;
+}
+
+.webdev-Image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.front-end {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.button {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 40px;
+  box-shadow: 1px 1px 10px #11999E;
+  text-shadow: 1px 1px #11999E;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #11999E 1px;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
